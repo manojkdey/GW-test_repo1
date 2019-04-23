@@ -1,0 +1,67 @@
+Question 1:-
+Hypthesis
+
+    The Global urban to rural population ratio of nations are related to the econiomic health of the nation .
+    ( IN other words ubalization brings in economic prosperity )
+
+Question
+    DOes the urbalization contrinutes to economic growth?
+
+Data SOurce - https://ourworldindata.org/economic-growth
+Data file name - urbanization-vs-gdp.csv
+
+Methodology
+Find p-factor
+Draw ascatter plot with "urban to rural population " on x-axis and "GDP per capita" on y-axis or the most recent  time across for al countries.
+Draw a mean line, and do a linear regression to test the hypotheis.
+2. Is the "urban / rural " population shift has similar impact on all nations across the globe by the economic range
+    ---This part is not needed - PLease feel free to cimment  ( Manoj Dey)
+
+
+VIsuals for question 1
+    i) SCatter plot , with "urban to rural population " on x-axis and "GDP per capita" on y-axis or the most recent  time
+    ii) Global Heat Map of the countries for "Urban to global population "
+    iii) Global Heat Map of the countries for GDP per capita
+    iv) Line graph with two lines with year on x-axis
+        a) Globale average of "Urban to rural population ratio".
+        b) Globale average of "GDP per capita
+
+Note - We have to add 2 more columns
+        Column G - This column - named "Rural Population percent " ,its value will be equal to "100 - Value of column D"
+        Column H - This column - named "Urban to rural population " , its value will be equal to "COlumn D / clomn G"
+
+
+__________________________________________________________________________
+Question2:-
+
+    Question 2 has 2 part, Iwil cal yhe 2a and 2b
+
+Qustion 2a.
+HYpothesis
+    Economic growth is a relatively recent development in human history.
+Question
+    How have incomes changed over time in countries across the world?
+
+Data SOurce - https://ourworldindata.org/economic-growth
+Data file name - world-gdp-over-the-last-two-millennia.csv
+
+Visuals for Question 2a:-
+    i) Line Graph  with  year on x-axis and global economy size on y-axis
+i    i) Bar graph for world economy size by end of every century
+                   
+   
+    ------------------------------------
+Qustion 2a.
+HYpothesis
+    Economic development os not well distributed across the globe.
+Question
+    How large are the differences in GDP between countries??
+
+Data SOurce - https://ourworldindata.org/economic-growth
+Data file name - gdp-per-capita-in-us-dollar-world-bank.csv
+
+Visuals for Question 2a:-
+    i) Heat map of the countries by economy size for the year 2015
+    ii) BAr graph for the economy size of 5 largest economy countries in the worls in 2015,
+                    5 median economy countries in the world in 2015 and
+                    5 smallest economy countries in the world in 2015
